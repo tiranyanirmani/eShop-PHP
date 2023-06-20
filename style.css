@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "QuickSand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+* {
+    font-family: "QuickSand";
+    font-size: 14px;
+}
+
+.main-body {
+    background-image: url("resources/background-body.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url("resources/logo.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title01 {
+    font-family: "Honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.background {
+    background-image: url("resources/background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title02 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.label1 {
+    font-size: 24px;
+}
+
+.label2 {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hr-break-1 {
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    border-width: 3px;
+}
+
+.logo-img {
+    height: 60px;
+    background-image: url(resources/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.search-btn {
+    height: 43px;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.poster-caption {
+    margin-bottom: 150px;
+}
+
+.poster-title {
+    font-size: 50px;
+    color: black;
+}
+
+.poster-text {
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
+
+.poster-img-1 {
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption-1 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2 {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link3:hover {
+    text-decoration: underline;
+}
+
+.lbl1 {
+    font-size: 20px;
+}
+
+.pm1 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/paypal_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pm2 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/visa_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pm3 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/mastercard_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pm4 {
+    height: 65px;
+    background-image: url("resources/payment_method_images/american_express_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.singleproduct {
+    padding-top: 65px;
+    padding-bottom: 145px;
+    padding: 20px;
+}
+
+.mainImg {
+    height: 830px;
+    background-image: url("resources/empty.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.product_qty {
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+}
+
+.qty_buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    border: solid 1px rgb(72, 71, 71);
+}
+
+.qty_inc,
+.qty_dec {
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.qty_inc {
+    border-top-right-radius: 5px;
+}
+
+.qty_dec {
+    border-bottom-right-radius: 5px;
+}
+
+.emptyView {
+    height: 400px;
+    background-image: url("resources/watchlistEmptyView.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cart-icon {
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.invoiceHeaderImage {
+    height: 80px;
+    background-image: url("resources/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gradient {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.chat-box,
+.chat-box {
+    height: 500px;
+    overflow-y: scroll;
+}
